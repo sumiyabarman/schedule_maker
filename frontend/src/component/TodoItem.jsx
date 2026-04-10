@@ -16,7 +16,6 @@ function TodoItem({ todo }) {
     const toggleCompleted = () => {
         dispatch(toggleComplete(todo.id)); // ✅ matches slice
     };
-    console.log("TODO:", todo);
 
     return (
         <div
